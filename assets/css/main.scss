@@ -1,0 +1,129 @@
+/* reset css propaty */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* reset css propaty */
+
+/* variable  */
+
+$shadow-efects: #edbc5a;
+$theme-color: #141414;
+$text-white: #ffff;
+$gray-color: #b0b0b0;
+$theme-two: #131313;
+/* variable  */
+
+// mixing
+@mixin flex-center-center() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-center-between() {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+// mixing
+
+/* Typographi h1 h2 h3 h4 h5 css propaty */
+/* //styleName: H1; */
+h1 {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 120px;
+  font-weight: 400;
+  line-height: 148.56px;
+  text-align: left;
+  margin: 0px;
+}
+/* //styleName: H2; */
+h2 {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 61.9px;
+  text-align: left;
+  margin: 0px;
+}
+/* //styleName: H3; */
+h3 {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 47.04px;
+  text-align: left;
+  margin: 0px;
+}
+/* //styleName: H4; */
+h4 {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34.66px;
+  text-align: left;
+  margin: 0px;
+}
+/* //styleName: H5; */
+h5 {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27.24px;
+  text-align: left;
+  margin: 0px;
+}
+
+// body css start
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: $theme-color;
+
+  // header css start
+  header {
+    @include flex-center-between();
+    padding: 25px 50px;
+
+    .logo__box{
+        width: 204px;
+        height: 40px;
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    // nav css
+    nav {
+      @include flex-center-center();
+
+      // ul css
+      ul {
+        @include flex-center-center();
+        gap: 40px;
+
+        // li css
+        li {
+          @include flex-center-center();
+
+          a {
+            text-decoration: none;
+            color: $text-white;
+            font-family: "Gilroy-SemiBold", sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22.05px;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+  // header css end
+}
+/* Typographi h1 h2 h3 h4 h5 css propaty */
