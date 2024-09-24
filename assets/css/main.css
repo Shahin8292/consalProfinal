@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 /* reset css propaty */
 * {
   margin: 0;
@@ -60,19 +61,35 @@ h5 {
 }
 
 body {
-  width: 100%;
+  max-width: 1920px;
   overflow-x: hidden;
   background-color: #141414;
+  position: relative;
+}
+body .top_right_eff {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  width: 320px;
+  height: 320px;
+  background-color: rgba(237, 188, 89, 0.268);
+  border-radius: 50%;
+  box-shadow: 0px 0px 328px 155px rgba(237, 188, 89, 0.357);
+  z-index: -1;
 }
 body header {
+  width: 100%;
+  padding: 50px 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 50px;
 }
 body header .logo__box {
   width: 204px;
   height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 body header .logo__box img {
   width: 100%;
@@ -89,7 +106,8 @@ body header nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  list-style: none;
+  gap: 80px;
 }
 body header nav ul li {
   display: flex;
@@ -103,7 +121,306 @@ body header nav ul li a {
   font-size: 18px;
   font-weight: 400;
   line-height: 22.05px;
+}
+body header .res_icon {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body header .res_icon img {
+  width: 100%;
+  height: 100%;
+}
+body section.hero__section {
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+}
+body section.hero__section .hero_left {
+  width: 1278px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+body section.hero__section .hero_left .supper_icon {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 220px;
+  height: 220px;
+  -o-object-fit: corver;
+     object-fit: corver;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body section.hero__section .hero_left .text_box_one {
+  width: 1278px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body section.hero__section .hero_left .text_box_one .text_wrapper {
+  width: 831px;
+  height: 300px;
+  position: relative;
+}
+body section.hero__section .hero_left .text_box_one .text_wrapper .top_text {
+  font-size: 140px;
+  line-height: 150px;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  position: relative;
+}
+body section.hero__section .hero_left .text_box_one .text_wrapper .top_text::after {
+  content: url(../image/Super.png);
+  position: absolute;
+  right: 100px;
+  top: 0px;
+}
+body section.hero__section .hero_left .text_box_one .text_wrapper .top_text::before {
+  content: url(../image/Dawn.png);
+  position: absolute;
+  left: -25%;
+  top: 50px;
+  width: 208px;
+  height: 208px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body section.hero__section .hero_left .text_box_one .text_wrapper .middel_text {
+  font-size: 140px;
+  line-height: 150px;
+  font-weight: 400;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 1px;
+  position: relative;
+}
+body section.hero__section .hero_left .text_box_one .text_wrapper .middel_text::after {
+  content: url(../image/elementheading.svg);
+  position: absolute;
+  right: -120px;
+  top: -100px;
+}
+body section.hero__section .hero_left .text_box_one .text_wrapper .bottom_text {
+  font-family: "Gilroy-Light", sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 150px;
+  text-transform: uppercase;
+  letter-spacing: 100px;
+  color: white;
+  position: absolute;
+  bottom: -130px;
+  left: 0px;
+  z-index: 999;
+}
+body section.hero__section .hero_left .image_box {
+  width: 100%;
+  height: 637px;
+  position: relative;
+  margin-top: 60px;
+}
+body section.hero__section .hero_left .image_box::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: #141414;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 999999;
+}
+body section.hero__section .hero_left .image_box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  display: flex;
+}
+body section.hero__section .hero_left .image_box .overlay {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 0px 0px;
+  display: flex;
+  align-items: flex-start;
+  gap: 5.5rem;
+  flex-direction: column;
+  z-index: 99;
+}
+body section.hero__section .hero_left .image_box .overlay .text__box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
   text-align: left;
+  padding-left: 120px;
+}
+body section.hero__section .hero_left .image_box .overlay .text__box span.top {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: "Rubik";
+  letter-spacing: 20px;
+  text-transform: uppercase;
+}
+body section.hero__section .hero_left .image_box .overlay .text__box h3 {
+  display: flex;
+  color: white;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  font-size: 38px;
+  line-height: 47px;
+  font-weight: 400;
+}
+body section.hero__section .hero_left .image_box .overlay .text__box h3 span.head_text {
+  color: white;
+  font-size: 38px;
+  line-height: 47px;
+  font-weight: 400;
+  font-family: "Gilroy-Light";
+}
+body section.hero__section .hero_left .image_box .overlay .slider_navigator {
+  display: flex;
+}
+body section.hero__section .hero_left .image_box .overlay .slider_navigator span {
+  height: 46px;
+  width: 46px;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #141414;
+  color: white;
+}
+body section.hero__section .hero_left .image_box .overlay .slider_navigator span.navigarot_two {
+  background-color: #EDBC5A;
+}
+body section.hero__section .hero_left .image_box img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body section.hero__section .hero__right {
+  max-width: calc(100% - 1278px);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 200px;
+}
+body section.hero__section .hero__right .image_box {
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+body section.hero__section .hero__right .image_box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body section.hero__section .hero__right .hero_left_bottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 80px 40px;
+  position: relative;
+  gap: 1.5rem;
+}
+body section.hero__section .hero__right .hero_left_bottom::before {
+  content: url(../image/Ornament.png);
+  position: absolute;
+  top: -50%;
+  left: 0px;
+}
+body section.hero__section .hero__right .hero_left_bottom p {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  font-family: "Gilroy-Bold", sans-serif;
+}
+body section.hero__section .hero__right .hero_left_bottom hr {
+  background-color: red;
+  color: red;
+}
+body section.hero__section .hero__right .hero_left_bottom .profile_box {
+  display: flex;
+  width: 100%;
+}
+body section.hero__section .hero__right .hero_left_bottom .profile_box .profile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+body section.hero__section .hero__right .hero_left_bottom .profile_box .profile .image_box_inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+body section.hero__section .hero__right .hero_left_bottom .profile_box .profile .image_box_inner .profile_details_text {
+  color: white;
+}
+body section.hero__section .hero__right .hero_left_bottom .profile_box .profile .image_box_inner .profile_details_text h5 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Rubik";
+  line-height: 29px;
+}
+body section.hero__section .hero__right .hero_left_bottom .profile_box .profile .image_box_inner .profile_details_text span {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14px;
+  font-family: "Rubik";
+}
+body section.hero__section .hero__right .hero_left_bottom .profile_box .profile .image_box_inner img {
+  width: 62px;
+  height: 62px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
+@media (max-width: 1420px) {
+  body {
+    max-width: 1420px;
+  }
+  body header {
+    padding: 25px 50px;
+  }
+  body header nav ul {
+    gap: 40px;
+  }
+}
+@media (max-width: 1320px) {
+  body {
+    max-width: 1320px;
+  }
+  body header {
+    padding: 25px 50px;
+  }
+  body header nav ul {
+    gap: 30px;
+  }
+}
 /* Typographi h1 h2 h3 h4 h5 css propaty *//*# sourceMappingURL=main.css.map */
