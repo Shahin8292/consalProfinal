@@ -871,6 +871,87 @@ body section.about_section .unique_idea_card .unique_card_items_wrapper .unique_
     -o-object-fit: cover;
        object-fit: cover;
   }
+  body section.about_section {
+    width: 100%;
+    padding: 20px 20px;
+    gap: 1.5rem;
+  }
+  body section.about_section .about_top_card {
+    width: 80%;
+  }
+  body section.about_section .about_top_card h3 {
+    color: white;
+    font-size: 30px;
+  }
+  body section.about_section .unique_idea_card {
+    gap: 1.5rem;
+    width: 80%;
+    padding: 30px;
+  }
+  body section.about_section .unique_idea_card .unique_card_items_wrapper {
+    width: 90%;
+  }
+  body section.about_section .unique_idea_card .unique_card_items_wrapper .unique_card {
+    width: 25%;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.6rem;
+    padding: 10px;
+    border-left: 1px solid rgba(245, 245, 245, 0.06);
+  }
+  body section.about_section .unique_idea_card .unique_card_items_wrapper .unique_card p {
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: "Gilroy-Light";
+  }
+  body section.about_section .unique_idea_card .unique_card_items_wrapper .unique_card span {
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: "Gilroy-Light";
+  }
+  body section.about_section .unique_idea_card .unique_card_items_wrapper .unique_card .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  body section.about_section .unique_idea_card .unique_card_items_wrapper .unique_card .bottom .icon {
+    height: 25px;
+    width: 25px;
+    background-color: rgba(245, 245, 245, 0.183);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transform: rotate(315deg);
+    font-size: 12px;
+  }
+  body section.about_section .unique_idea_card .unique_card_items_wrapper .unique_card .bottom .icon_active {
+    height: 25px;
+    width: 25px;
+    background-color: #EDBC5A;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transform: rotate(315deg);
+    font-size: 12px;
+  }
+  body section.about_section .unique_idea_card .unique_card_items_wrapper .unique_card .bottom .number {
+    color: #EDBC5A;
+  }
+  body section.about_section .unique_idea_card .unique_card_items_wrapper .unique_card .bottom .number_outLine {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: rgba(245, 245, 245, 0.183);
+    -webkit-text-stroke-width: 1px;
+    font-size: 32px;
+  }
 }
 @media (max-width: 720px) {
   body {
@@ -900,6 +981,32 @@ body section.about_section .unique_idea_card .unique_card_items_wrapper .unique_
   }
   body section.exprience_section .exprience_right {
     width: 48%;
+  }
+  body section.about_section {
+    padding: 10px 10px;
+  }
+  body section.about_section .about_top_card {
+    width: 90%;
+  }
+  body section.about_section .about_top_card h3 {
+    font-size: 25px;
+  }
+  body section.about_section .unique_idea_card {
+    width: 90%;
+    padding: 20px;
+  }
+  body section.about_section .unique_idea_card .unique_card_items_wrapper {
+    padding: 20px 10px;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: none;
+    gap: 4px;
+  }
+  body section.about_section .unique_idea_card .unique_card_items_wrapper .unique_card {
+    width: 49%;
+    border-radius: 6px;
+    border: 1px solid rgba(245, 245, 245, 0.06);
   }
 }
 @media (max-width: 520px) {
@@ -947,5 +1054,21 @@ body section.about_section .unique_idea_card .unique_card_items_wrapper .unique_
   }
   body section.exprience_section .exprience_right .boy_image {
     height: 100%;
+  }
+  body section.about_section .unique_idea_card {
+    width: 90%;
+    padding: 10px;
+  }
+  body section.about_section .unique_idea_card .unique_card_items_wrapper {
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: none;
+    gap: 8px;
+  }
+  body section.about_section .unique_idea_card .unique_card_items_wrapper .unique_card {
+    width: 100%;
+    border: 1px solid rgba(245, 245, 245, 0.06);
+    border-radius: 6px;
   }
 }/*# sourceMappingURL=main.css.map */
