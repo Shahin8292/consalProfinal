@@ -846,6 +846,904 @@ section.about_section{
     }
   }
 }
+section.portfolio_section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px;
+
+  .section_header{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+    // background-color: red;
+
+    span{
+      color:$primary;
+      font-size: 14px;
+      font-weight: 100;
+      font-family: "Gilroy-Light";
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+
+      .arrow{
+        transform: rotate(315deg);
+      }
+    }
+    h4{
+      color: $text-white;
+      width: 300px;
+      font-size: 32px;
+      font-weight: 600;
+    }
+  }
+  .portfolio_card_wrapper{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    .top_card_box{
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+
+      .portfolio_card_small{
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        .image_box{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          // background-color: red;
+          // padding: 10px;
+          img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        .portfolio_details{
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          border-bottom: 2px solid white;
+          padding: 20px 0px;
+          span{
+            color: $text-white;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: "Gilroy-Light";
+          }
+          .bottom{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h5{
+              width: 70%;
+              color: $text-white;
+              font-size: 28px;
+              line-height: 35px;
+              font-weight: 600;
+              font-family: "Gilroy-Bold";
+            }
+            .arrow{
+              font-size: 42px;
+              font-weight: 700;
+              color: $text-white;
+              transform: rotate(315deg);
+            }
+          }
+        }
+      }
+      .portfolio_card{
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+
+        .image_box{
+          width: 100%;
+          height: auto;
+
+          img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        .portfolio_details{
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          border-bottom: 2px solid white;
+          padding: 20px 0px;
+          span{
+            color: $text-white;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: "Gilroy-Light";
+          }
+          .bottom{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h5{
+              width: 70%;
+              color: $text-white;
+              font-size: 28px;
+              line-height: 35px;
+              font-weight: 600;
+              font-family: "Gilroy-Bold";
+            }
+            .arrow{
+              font-size: 42px;
+              font-weight: 700;
+              color: $text-white;
+              transform: rotate(315deg);
+            }
+          }
+        }
+      }
+    }
+    .bottom_card_box{
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+
+      .portfolio_card_small{
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        .image_box{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          // background-color: red;
+          // padding: 10px;
+          img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        .portfolio_details{
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          border-bottom: 2px solid white;
+          padding: 20px 0px;
+          span{
+            color: $text-white;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: "Gilroy-Light";
+          }
+          .bottom{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h5{
+              width: 70%;
+              color: $text-white;
+              font-size: 28px;
+              line-height: 35px;
+              font-weight: 600;
+              font-family: "Gilroy-Bold";
+            }
+            .arrow{
+              font-size: 42px;
+              font-weight: 700;
+              color: $text-white;
+              transform: rotate(315deg);
+            }
+          }
+        }
+      }
+      .portfolio_card{
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+
+        .image_box{
+          width: 100%;
+          height: auto;
+
+          img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        .portfolio_details{
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          border-bottom: 2px solid white;
+          padding: 20px 0px;
+          span{
+            color: $text-white;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: "Gilroy-Light";
+          }
+          .bottom{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h5{
+              width: 70%;
+              color: $text-white;
+              font-size: 28px;
+              line-height: 35px;
+              font-weight: 600;
+              font-family: "Gilroy-Bold";
+            }
+            .arrow{
+              font-size: 42px;
+              font-weight: 700;
+              color: $text-white;
+              transform: rotate(315deg);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .seemore_btn{
+    padding: 12px 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid $text-white;
+    font-size: 22px;
+    color: $primary;
+    border-radius: 26px;
+    font-family: "Gilroy-Medium";
+    cursor: pointer;
+
+    .arrow{
+      transform: rotate(310deg);
+    }
+  }
+}
+.awards_section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding-top: 2rem;
+  // background-color: red;
+  .section_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: max-content;
+    // background-color: red;
+
+    span{
+      color:$primary;
+      font-size: 14px;
+      font-weight: 100;
+      font-family: "Gilroy-Light";
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+
+      .arrow{
+        transform: rotate(25deg);
+      }
+    }
+    h4{
+      color: $text-white;
+      // width: 300px;
+      font-size: 32px;
+      font-weight: 600;
+    }
+  }
+  .awards_card_wrapper{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:2.5rem;
+    width: 80%;
+    padding: 40px 0px;
+    .awards_card{
+      flex: 1 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      color: $text-white;
+      padding: 8px;
+
+      .icon{
+        width: 60px;
+        height:60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #b0b0b0;
+        border-radius: 50%;
+        color: $text-white;
+      }
+      .icon.active{
+          background-color: $primary; 
+      }
+      .icon.black{
+          color: $theme-color; 
+      }
+
+      .details{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 1rem;
+
+        h4{
+          border-bottom: 1px dotted $text-white;
+          padding-bottom: 15px;
+          font-size: 22px;
+        }
+      }
+    }
+    
+  }
+}
+
+.choose_section{
+  margin: 0 auto;
+  width: 80%;
+  // min-height: 90vh;
+  background: url(../image/people-taking-part-sustainable-travel-movement\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: $text-white;
+  padding: 40px 20px;
+  gap: 1.5rem;
+
+  .section_header{
+    flex: 1 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    gap: 1.5rem;
+    span.title{
+      color:$primary;
+      font-size: 14px;
+      font-weight: 100;
+      font-family: "Gilroy-Light";
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+
+      .arrow{
+        transform: rotate(25deg);
+      }
+    }
+    h4{
+      color: $text-white;
+      // width: 300px;
+      font-size: 42px;
+      font-weight: 600;
+      line-height: 52px;
+    }
+    p{
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    a{
+      // text-decoration: none;
+      color: $primary;
+    }
+  }
+  .item_wrapper{
+    padding: 20px;
+    flex: 2 320px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+
+    .item{
+      flex: 1 200px;
+
+      span{
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-family: "Gilroy-Light";
+        font-weight: 600;
+      }
+    }
+  }
+}
+section.member_section{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3.5rem;
+  position: relative;
+  padding: 40px;
+  .shadow_eff{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    width: 1px;
+    height: 1px;
+    background-color:rgba(237, 188, 89, 0.268);
+    border-radius: 50%;
+    box-shadow: 0px 0px 158px 150px $shadow-efects;
+    z-index: -1;
+    backdrop-filter: blur(10px);
+  }
+  .section_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: max-content;
+    // background-color: red;
+
+    span{
+      color:$primary;
+      font-size: 14px;
+      font-weight: 100;
+      font-family: "Gilroy-Light";
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+
+      .arrow{
+        transform: rotate(25deg);
+      }
+    }
+    h4{
+      color: $text-white;
+      // width: 300px;
+      font-size: 32px;
+      font-weight: 600;
+    }
+  }
+  .team_member_wrapper{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    // gap: 2.5rem;
+
+
+    .member_card{
+      display: flex;
+      width:50%;
+      align-items: stretch;
+      justify-content: flex-start;
+      // background-color: red;
+      gap: 10px;
+      padding:40px;
+
+      .image_box{
+        width: 120px;
+        height: 120px;
+
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 50%;
+          
+        }
+      }
+      .details_box{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 20px;
+        color: $text-white;
+
+        span{
+          font-size: 12px;
+        }
+        .icon_box{
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+
+          a{
+            color:$text-white;
+          }
+        }
+      }
+    }
+    .member_card.border_top{
+      border-top: 1px solid rgba(245, 245, 245, 0.253);
+    }
+    .member_card.border_left{
+      border-left: 1px solid rgba(245, 245, 245, 0.253);
+    }
+    .member_card.border_bottom{
+      border-bottom:1px solid rgba(245, 245, 245, 0.253);
+    }
+    .member_card.border_right{
+      border-right: 1px solid rgba(245, 245, 245, 0.253);
+    }
+  }
+}
+section.paly_section{
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .center_btn{
+    z-index: 99;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    
+    span{
+      position: absolute;
+      left: 50px;
+      top: 0px;
+      font-size:16px;
+      color: $text-white;
+      display: flex;
+      z-index:120;
+
+    }
+   
+    img{
+      width: 120px;
+      height:120px;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-50%);
+      transform: translateY(-50%);
+
+    
+    }
+  }
+  .bg_image{
+    width: 100%;
+    height:100%;
+    object-fit: fill;
+    
+  }
+}
+section.play_bottom{
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  gap: 2.5rem;
+
+  .left_image{
+    width: 48%;
+    height: 25vh;
+
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .right_card{
+    width: 48%;
+    background-color: rgba(26, 23, 23, 1);
+    padding: 40px;
+    display: flex;
+    gap: 2.5rem;
+    position: relative;
+
+    .details{
+      color: $text-white;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+
+      p{
+        font-family: "Gilroy-Light";
+      }
+
+      .icon_box{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 5px;
+        border: 1px solid whitesmoke;
+        width: max-content;
+        padding: 6px;
+      }
+    }
+    .quote{
+      position: absolute;
+      right: 10px;
+      bottom:20px;
+      font-size:52px;
+    }
+  }
+}
+// section blog 
+section.blog_section{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 40px;
+  justify-content: flex-start;
+  .section_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: max-content;
+    // background-color: red;
+
+    span{
+      color:$primary;
+      font-size: 14px;
+      font-weight: 100;
+      font-family: "Gilroy-Light";
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+
+      .arrow{
+        transform: rotate(25deg);
+      }
+    }
+    h4{
+      color: $text-white;
+      // width: 300px;
+      font-size: 32px;
+      font-weight: 600;
+    }
+  }
+
+  .blog_wrappe{
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    // background-color: red;
+
+    .blog_card{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      color: $text-white;
+      span{
+        font-family: "Gilroy-Light";
+      }
+      p{
+        font-family: "Gilroy-Light";
+      }
+      img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+    }
+    .blog_card.relative{
+      position: relative;
+
+      .arrow{
+        position: absolute;
+        right: 30px;
+        bottom: 0px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $primary;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+section.brand_section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 40px;
+  .brand_card{
+    flex: 1 200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(29, 29, 29, 1);
+    padding: 8px 16px;
+    border-radius: 5px;
+  }
+}
+}
+
+footer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .footer_header{
+    width: 80%;
+    // width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    border-bottom: 1px solid $text-white;
+    // background-color: red;
+
+    .left{
+      flex: 1;
+      border-right: 1px solid $text-white;
+    }
+    .right{
+      flex: 3;
+      // background-color: red;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 20px;
+      height: 100%;
+
+      .email{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 1rem;
+        text-decoration: none;
+        color: $text-white;
+      }
+      .socail_box{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 2rem;
+      }
+    }
+  }
+  .footer_middel{
+    width: 80%;
+    display: flex;
+    align-items:stretch;
+    justify-content: flex-start;
+  
+    color: $text-white;
+    gap: 20px;
+    
+    .left{
+        padding: 40px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: max-content;
+      gap: 1.5rem;
+      border-right: 1px solid $text-white;
+    }
+    .right{
+        padding: 40px;
+      flex: 3;
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      text-decoration: none;
+
+      .quick_link{
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+
+       .quickLink_wrapper{
+        display: flex;
+        gap: 2.5rem;
+        ul{
+          list-style: none;
+
+        li{
+          a{
+            text-decoration: none;
+            color: white;
+            font-family: "Rubik";
+          }
+        }
+        }
+       
+       }
+      }
+      .other_link{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        a{
+          text-decoration: none;
+          color: $text-white;
+          font-family: "Rubik";
+        }
+      }
+      .message_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        a{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 1rem;
+          font-size: 22px;
+          background-color: $primary;
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          color: $theme-color;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .copy_right{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; 
+    border-top: 1px solid whitesmoke;
+    color: $text-white;
+  }
 }
 
 @media (max-width:1260px) {

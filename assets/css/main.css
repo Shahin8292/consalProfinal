@@ -767,6 +767,836 @@ body section.about_section .unique_idea_card .unique_card_items_wrapper .unique_
   -webkit-text-stroke-width: 1px;
   font-size: 32px;
 }
+body section.portfolio_section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px;
+}
+body section.portfolio_section .section_header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 80%;
+}
+body section.portfolio_section .section_header span {
+  color: #EDBC5A;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "Gilroy-Light";
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+body section.portfolio_section .section_header span .arrow {
+  transform: rotate(315deg);
+}
+body section.portfolio_section .section_header h4 {
+  color: white;
+  width: 300px;
+  font-size: 32px;
+  font-weight: 600;
+}
+body section.portfolio_section .portfolio_card_wrapper {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+body section.portfolio_section .portfolio_card_wrapper .top_card_box {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+body section.portfolio_section .portfolio_card_wrapper .top_card_box .portfolio_card_small {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+body section.portfolio_section .portfolio_card_wrapper .top_card_box .portfolio_card_small .image_box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body section.portfolio_section .portfolio_card_wrapper .top_card_box .portfolio_card_small .image_box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body section.portfolio_section .portfolio_card_wrapper .top_card_box .portfolio_card_small .portfolio_details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-bottom: 2px solid white;
+  padding: 20px 0px;
+}
+body section.portfolio_section .portfolio_card_wrapper .top_card_box .portfolio_card_small .portfolio_details span {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Gilroy-Light";
+}
+body section.portfolio_section .portfolio_card_wrapper .top_card_box .portfolio_card_small .portfolio_details .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body section.portfolio_section .portfolio_card_wrapper .top_card_box .portfolio_card_small .portfolio_details .bottom h5 {
+  width: 70%;
+  color: white;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 600;
+  font-family: "Gilroy-Bold";
+}
+body section.portfolio_section .portfolio_card_wrapper .top_card_box .portfolio_card_small .portfolio_details .bottom .arrow {
+  font-size: 42px;
+  font-weight: 700;
+  color: white;
+  transform: rotate(315deg);
+}
+body section.portfolio_section .portfolio_card_wrapper .top_card_box .portfolio_card {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+body section.portfolio_section .portfolio_card_wrapper .top_card_box .portfolio_card .image_box {
+  width: 100%;
+  height: auto;
+}
+body section.portfolio_section .portfolio_card_wrapper .top_card_box .portfolio_card .image_box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body section.portfolio_section .portfolio_card_wrapper .top_card_box .portfolio_card .portfolio_details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-bottom: 2px solid white;
+  padding: 20px 0px;
+}
+body section.portfolio_section .portfolio_card_wrapper .top_card_box .portfolio_card .portfolio_details span {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Gilroy-Light";
+}
+body section.portfolio_section .portfolio_card_wrapper .top_card_box .portfolio_card .portfolio_details .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body section.portfolio_section .portfolio_card_wrapper .top_card_box .portfolio_card .portfolio_details .bottom h5 {
+  width: 70%;
+  color: white;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 600;
+  font-family: "Gilroy-Bold";
+}
+body section.portfolio_section .portfolio_card_wrapper .top_card_box .portfolio_card .portfolio_details .bottom .arrow {
+  font-size: 42px;
+  font-weight: 700;
+  color: white;
+  transform: rotate(315deg);
+}
+body section.portfolio_section .portfolio_card_wrapper .bottom_card_box {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+body section.portfolio_section .portfolio_card_wrapper .bottom_card_box .portfolio_card_small {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+body section.portfolio_section .portfolio_card_wrapper .bottom_card_box .portfolio_card_small .image_box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body section.portfolio_section .portfolio_card_wrapper .bottom_card_box .portfolio_card_small .image_box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body section.portfolio_section .portfolio_card_wrapper .bottom_card_box .portfolio_card_small .portfolio_details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-bottom: 2px solid white;
+  padding: 20px 0px;
+}
+body section.portfolio_section .portfolio_card_wrapper .bottom_card_box .portfolio_card_small .portfolio_details span {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Gilroy-Light";
+}
+body section.portfolio_section .portfolio_card_wrapper .bottom_card_box .portfolio_card_small .portfolio_details .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body section.portfolio_section .portfolio_card_wrapper .bottom_card_box .portfolio_card_small .portfolio_details .bottom h5 {
+  width: 70%;
+  color: white;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 600;
+  font-family: "Gilroy-Bold";
+}
+body section.portfolio_section .portfolio_card_wrapper .bottom_card_box .portfolio_card_small .portfolio_details .bottom .arrow {
+  font-size: 42px;
+  font-weight: 700;
+  color: white;
+  transform: rotate(315deg);
+}
+body section.portfolio_section .portfolio_card_wrapper .bottom_card_box .portfolio_card {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+body section.portfolio_section .portfolio_card_wrapper .bottom_card_box .portfolio_card .image_box {
+  width: 100%;
+  height: auto;
+}
+body section.portfolio_section .portfolio_card_wrapper .bottom_card_box .portfolio_card .image_box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body section.portfolio_section .portfolio_card_wrapper .bottom_card_box .portfolio_card .portfolio_details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-bottom: 2px solid white;
+  padding: 20px 0px;
+}
+body section.portfolio_section .portfolio_card_wrapper .bottom_card_box .portfolio_card .portfolio_details span {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Gilroy-Light";
+}
+body section.portfolio_section .portfolio_card_wrapper .bottom_card_box .portfolio_card .portfolio_details .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body section.portfolio_section .portfolio_card_wrapper .bottom_card_box .portfolio_card .portfolio_details .bottom h5 {
+  width: 70%;
+  color: white;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 600;
+  font-family: "Gilroy-Bold";
+}
+body section.portfolio_section .portfolio_card_wrapper .bottom_card_box .portfolio_card .portfolio_details .bottom .arrow {
+  font-size: 42px;
+  font-weight: 700;
+  color: white;
+  transform: rotate(315deg);
+}
+body section.portfolio_section .seemore_btn {
+  padding: 12px 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: 1px solid white;
+  font-size: 22px;
+  color: #EDBC5A;
+  border-radius: 26px;
+  font-family: "Gilroy-Medium";
+  cursor: pointer;
+}
+body section.portfolio_section .seemore_btn .arrow {
+  transform: rotate(310deg);
+}
+body .awards_section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding-top: 2rem;
+}
+body .awards_section .section_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: -moz-max-content;
+  width: max-content;
+}
+body .awards_section .section_header span {
+  color: #EDBC5A;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "Gilroy-Light";
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+body .awards_section .section_header span .arrow {
+  transform: rotate(25deg);
+}
+body .awards_section .section_header h4 {
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+}
+body .awards_section .awards_card_wrapper {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  width: 80%;
+  padding: 40px 0px;
+}
+body .awards_section .awards_card_wrapper .awards_card {
+  flex: 1 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: white;
+  padding: 8px;
+}
+body .awards_section .awards_card_wrapper .awards_card .icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b0b0b0;
+  border-radius: 50%;
+  color: white;
+}
+body .awards_section .awards_card_wrapper .awards_card .icon.active {
+  background-color: #EDBC5A;
+}
+body .awards_section .awards_card_wrapper .awards_card .icon.black {
+  color: #141414;
+}
+body .awards_section .awards_card_wrapper .awards_card .details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}
+body .awards_section .awards_card_wrapper .awards_card .details h4 {
+  border-bottom: 1px dotted white;
+  padding-bottom: 15px;
+  font-size: 22px;
+}
+body .choose_section {
+  margin: 0 auto;
+  width: 80%;
+  background: url(../image/people-taking-part-sustainable-travel-movement\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  padding: 40px 20px;
+  gap: 1.5rem;
+}
+body .choose_section .section_header {
+  flex: 1 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+body .choose_section .section_header span.title {
+  color: #EDBC5A;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "Gilroy-Light";
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+body .choose_section .section_header span.title .arrow {
+  transform: rotate(25deg);
+}
+body .choose_section .section_header h4 {
+  color: white;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 52px;
+}
+body .choose_section .section_header p {
+  font-size: 22px;
+  font-weight: 600;
+}
+body .choose_section .section_header a {
+  color: #EDBC5A;
+}
+body .choose_section .item_wrapper {
+  padding: 20px;
+  flex: 2 320px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+body .choose_section .item_wrapper .item {
+  flex: 1 200px;
+}
+body .choose_section .item_wrapper .item span {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: "Gilroy-Light";
+  font-weight: 600;
+}
+body section.member_section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3.5rem;
+  position: relative;
+  padding: 40px;
+}
+body section.member_section .shadow_eff {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  width: 1px;
+  height: 1px;
+  background-color: rgba(237, 188, 89, 0.268);
+  border-radius: 50%;
+  box-shadow: 0px 0px 158px 150px rgba(237, 188, 89, 0.357);
+  z-index: -1;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+body section.member_section .section_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: -moz-max-content;
+  width: max-content;
+}
+body section.member_section .section_header span {
+  color: #EDBC5A;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "Gilroy-Light";
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+body section.member_section .section_header span .arrow {
+  transform: rotate(25deg);
+}
+body section.member_section .section_header h4 {
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+}
+body section.member_section .team_member_wrapper {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+body section.member_section .team_member_wrapper .member_card {
+  display: flex;
+  width: 50%;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 40px;
+}
+body section.member_section .team_member_wrapper .member_card .image_box {
+  width: 120px;
+  height: 120px;
+}
+body section.member_section .team_member_wrapper .member_card .image_box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+body section.member_section .team_member_wrapper .member_card .details_box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 20px;
+  color: white;
+}
+body section.member_section .team_member_wrapper .member_card .details_box span {
+  font-size: 12px;
+}
+body section.member_section .team_member_wrapper .member_card .details_box .icon_box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+body section.member_section .team_member_wrapper .member_card .details_box .icon_box a {
+  color: white;
+}
+body section.member_section .team_member_wrapper .member_card.border_top {
+  border-top: 1px solid rgba(245, 245, 245, 0.253);
+}
+body section.member_section .team_member_wrapper .member_card.border_left {
+  border-left: 1px solid rgba(245, 245, 245, 0.253);
+}
+body section.member_section .team_member_wrapper .member_card.border_bottom {
+  border-bottom: 1px solid rgba(245, 245, 245, 0.253);
+}
+body section.member_section .team_member_wrapper .member_card.border_right {
+  border-right: 1px solid rgba(245, 245, 245, 0.253);
+}
+body section.paly_section {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body section.paly_section .center_btn {
+  z-index: 99;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+body section.paly_section .center_btn span {
+  position: absolute;
+  left: 50px;
+  top: 0px;
+  font-size: 16px;
+  color: white;
+  display: flex;
+  z-index: 120;
+}
+body section.paly_section .center_btn img {
+  width: 120px;
+  height: 120px;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+}
+body section.paly_section .bg_image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+body section.play_bottom {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  gap: 2.5rem;
+}
+body section.play_bottom .left_image {
+  width: 48%;
+  height: 25vh;
+}
+body section.play_bottom .left_image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body section.play_bottom .right_card {
+  width: 48%;
+  background-color: rgb(26, 23, 23);
+  padding: 40px;
+  display: flex;
+  gap: 2.5rem;
+  position: relative;
+}
+body section.play_bottom .right_card .details {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+body section.play_bottom .right_card .details p {
+  font-family: "Gilroy-Light";
+}
+body section.play_bottom .right_card .details .icon_box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  border: 1px solid whitesmoke;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 6px;
+}
+body section.play_bottom .right_card .quote {
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  font-size: 52px;
+}
+body section.blog_section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 40px;
+  justify-content: flex-start;
+}
+body section.blog_section .section_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: -moz-max-content;
+  width: max-content;
+}
+body section.blog_section .section_header span {
+  color: #EDBC5A;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "Gilroy-Light";
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+body section.blog_section .section_header span .arrow {
+  transform: rotate(25deg);
+}
+body section.blog_section .section_header h4 {
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+}
+body section.blog_section .blog_wrappe {
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+body section.blog_section .blog_wrappe .blog_card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: white;
+}
+body section.blog_section .blog_wrappe .blog_card span {
+  font-family: "Gilroy-Light";
+}
+body section.blog_section .blog_wrappe .blog_card p {
+  font-family: "Gilroy-Light";
+}
+body section.blog_section .blog_wrappe .blog_card img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body section.blog_section .blog_wrappe .blog_card.relative {
+  position: relative;
+}
+body section.blog_section .blog_wrappe .blog_card.relative .arrow {
+  position: absolute;
+  right: 30px;
+  bottom: 0px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EDBC5A;
+  border-radius: 50%;
+}
+body section.brand_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 40px;
+}
+body section.brand_section .brand_card {
+  flex: 1 200px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(29, 29, 29);
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .footer_header {
+  width: 80%;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  border-bottom: 1px solid white;
+}
+footer .footer_header .left {
+  flex: 1;
+  border-right: 1px solid white;
+}
+footer .footer_header .right {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  height: 100%;
+}
+footer .footer_header .right .email {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  text-decoration: none;
+  color: white;
+}
+footer .footer_header .right .socail_box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+footer .footer_middel {
+  width: 80%;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  color: white;
+  gap: 20px;
+}
+footer .footer_middel .left {
+  padding: 40px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: -moz-max-content;
+  width: max-content;
+  gap: 1.5rem;
+  border-right: 1px solid white;
+}
+footer .footer_middel .right {
+  padding: 40px;
+  flex: 3;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  text-decoration: none;
+}
+footer .footer_middel .right .quick_link {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+footer .footer_middel .right .quick_link .quickLink_wrapper {
+  display: flex;
+  gap: 2.5rem;
+}
+footer .footer_middel .right .quick_link .quickLink_wrapper ul {
+  list-style: none;
+}
+footer .footer_middel .right .quick_link .quickLink_wrapper ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Rubik";
+}
+footer .footer_middel .right .other_link {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+footer .footer_middel .right .other_link a {
+  text-decoration: none;
+  color: white;
+  font-family: "Rubik";
+}
+footer .footer_middel .right .message_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer_middel .right .message_btn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 22px;
+  background-color: #EDBC5A;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: #141414;
+  text-decoration: none;
+}
+footer .copy_right {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-top: 1px solid whitesmoke;
+  color: white;
+}
 
 @media (max-width: 1260px) {
   body section.hero_section .hero_section_left {
